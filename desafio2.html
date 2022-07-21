@@ -1,0 +1,61 @@
+<script>
+function pedirNombre()
+{
+    let nombre = prompt("ingresa nombre");
+    pedirApellido (nombre);
+
+}
+
+function pedirApellido(nombre)
+
+{
+let apellido = prompt("ingresa apellido");
+saludar(nombre+apellido);
+}
+
+function saludar(x)
+{
+console.log("hola", x);
+}
+
+pedirNombre()
+
+function ingreso ()
+{
+    let clave="1234";
+    let start= prompt("ingrese clave");
+
+    if (clave===start)
+    {
+        alert("Binvenido");
+    }
+
+    else
+    {
+        alert("ingreso no exitoso");
+    }
+}
+
+ingreso()
+
+function level()
+{
+    let reset = 50;
+    let contador=0;
+    while (reset<=contador)
+    {
+        let reset=contador++
+    }
+
+    alert("Llegaste a nivel 50!");
+}
+
+level()
+
+
+
+
+
+
+
+</script>
